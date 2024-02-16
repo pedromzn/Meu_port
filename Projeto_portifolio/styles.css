@@ -370,6 +370,7 @@ body{
 }
 .contatos-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 150px;
 }
@@ -409,7 +410,7 @@ body{
 
 /* footer contatos mobile */
 
-@media(max-width: 900px){
+/* @media(max-width: 900px){
     .contatos-content{
         display: flex;
         justify-content: center;
@@ -417,7 +418,7 @@ body{
         flex-direction: column;
         gap: 150px;
     }
-}
+} */
 
 /* efeito scroll */
 .sobre-hero, .conhecimentos, .projetos-cards{

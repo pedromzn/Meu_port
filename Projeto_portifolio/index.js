@@ -36,8 +36,13 @@
 
 const hamburger = document.querySelector('.hamburger')
 const nav = document.querySelector('.nav-list')
+const link1 = document.querySelector('.conhecimento')
 
 hamburger.addEventListener('click', () =>{
+    nav.classList.toggle('active')
+})
+
+link1.addEventListener('click', () =>{
     nav.classList.toggle('active')
 })
 
