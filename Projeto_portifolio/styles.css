@@ -353,7 +353,7 @@ body{
 }
 .btn-mostra {
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     width: 30%;
 }
 
@@ -364,7 +364,7 @@ body{
     margin-bottom: 100px;
 }
 .contatos-hero h2{
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     text-transform: uppercase;
     font-size: 30px;   
 }
@@ -417,4 +417,9 @@ body{
         flex-direction: column;
         gap: 150px;
     }
+}
+
+/* efeito scroll */
+.sobre-hero, .conhecimentos, .projetos-cards{
+    visibility: hidden;
 }

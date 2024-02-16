@@ -61,3 +61,27 @@ icon.onclick = function(){
         icon.src = 'imagens/sun.png'
     }
 }
+ // efeito do scroll
+
+ window.sr = ScrollReveal({reset: true})
+
+ sr.reveal('.sobre-hero',{
+     rotate:{x:100, y:0, z:0},
+     duration: 1000,
+ })
+ sr.reveal('.conhecimentos',{
+    rotate:{x:100, y:0, z:0},
+    duration: 1000,
+})
+sr.reveal('.projetos-cards',{
+    rotate:{x:100, y:0, z:0},
+    duration: 2000,
+})
+// sr.reveal('.projetos',{
+//     rotate:{x:100, y:0, z:0},
+//     duration: 1000,
+// })
+// sr.reveal(' .contatos-content',{
+//     rotate:{x:100, y:0, z:0},
+//     duration: 1000,
+// })
