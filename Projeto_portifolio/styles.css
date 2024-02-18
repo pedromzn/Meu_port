@@ -111,7 +111,7 @@ body{
     }
     .nav-list{
         position: absolute;
-        top: 15vh;
+        top: 10vh;
         right: 0;
         width: 60vw;
         padding: 20px;
@@ -421,6 +421,6 @@ body{
 } */
 
 /* efeito scroll */
-.sobre-hero, .conhecimentos, .projetos-cards{
+.sobre-hero, .conhecimentos{
     visibility: hidden;
 }

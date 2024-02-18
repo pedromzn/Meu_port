@@ -78,10 +78,10 @@ icon.onclick = function(){
     rotate:{x:100, y:0, z:0},
     duration: 1000,
 })
-sr.reveal('.projetos-cards',{
-    rotate:{x:100, y:0, z:0},
-    duration: 2000,
-})
+// sr.reveal('.projetos-cards',{
+//     rotate:{x:100, y:0, z:0},
+//     duration: 2000,
+// })
 // sr.reveal('.projetos',{
 //     rotate:{x:100, y:0, z:0},
 //     duration: 1000,
